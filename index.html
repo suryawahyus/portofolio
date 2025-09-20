@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="light-mode">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surya Wahyu Saputra | Portfolio</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Poppins font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-XE7w/8...hash..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Icon (FontAwesome / bisa pakai lucide/heroicons) -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ===== Header ===== -->
+  <header class="header">
+      <div class="logo">Surya<span>Portfolio</span></div>
+
+      <nav class="navbar">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- 🔀 Tombol Switch -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark/Light Mode">
+        <i class="fas fa-moon"></i> <!-- default icon -->
+      </button>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="intro">Hello, I'm Surya</p>
+      <h1 class="hero-title">Front-End Developer <span class="highlight">Enthusiast</span></h1>
+      <p class="hero-desc">I build responsive and modern websites & apps using Flutter and web technologies.</p>
+      <a href="#projects" class="btn btn-primary">See My Work</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/gambar1.png" alt="Profile Photo">
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section class="container" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-info">
+          <h3>Project 1</h3>
+          <p>Short description of project 1.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-info">
+          <h3>Project 2</h3>
+          <p>Short description of project 2.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-info">
+          <h3>Project 3</h3>
+          <p>Short description of project 3.</p>
+        </div>
+      </div>
+      <!-- Tambah project lain -->
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="container" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" class="form-input" placeholder="Your Name" required>
+      <input type="email" class="form-input" placeholder="Your Email" required>
+      <textarea class="form-textarea" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+    <div class="social-icons">
+      <a href="https://github.com/" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:surya@example.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>&copy; 2025 Surya Wahyu Saputra. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== Toggle Script ===== -->
+  <script src="script.js">
+  </script>
+</body>
+</html>
